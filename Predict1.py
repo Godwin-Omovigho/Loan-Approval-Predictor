@@ -10,7 +10,7 @@ st.title("Loan Approval Predictor 💰")
 
 
 def load_model():
-    model=pickle.load(open("C:\\Users\\HPEE\\Documents\\GitHub\\Loan-Approval-Predictor\\random_forest_model.pkl",'rb'))
+    model=pickle.load(open("random_forest_model.pkl","rb"))
     
     return model
 
