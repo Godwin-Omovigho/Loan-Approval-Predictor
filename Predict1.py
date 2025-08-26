@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.preprocessing import LabelEncoder
+
 
 # The top of the app
 st.set_page_config(page_title="Loan Approval Predictor", layout="wide")
